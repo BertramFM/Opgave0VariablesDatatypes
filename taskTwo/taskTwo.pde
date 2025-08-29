@@ -6,13 +6,13 @@ String capitalCity = "København";
 
 boolean copenhagenTheBest = true;
 
-int stepsTaken = 60*24;
+int minutesInADay = 60*24;
 
 float priceForSandwich = 22.12
 
 String teacherIntroduction = "Hej, jeg heddder "+teachername;
 
-boolean imFat = false;
+boolean isMonday = false;
 
 float priceForTrain = 2.2 + 33;
 
