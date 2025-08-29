@@ -1,4 +1,6 @@
-"Tess Løvgreen";// Skriv den rette datatype og et passende variabelnavn foran denne værdi: String teacherName= "Tess Løvgreen"
+//"Tess Løvgreen";// Skriv den rette datatype og et passende variabelnavn foran denne værdi:
+
+String teacherName= "Tess Løvgreen";
 
 int daysInYear = 365;
 
@@ -8,9 +10,9 @@ boolean copenhagenTheBest = true;
 
 int minutesInADay = 60*24;
 
-float priceForSandwich = 22.12
+float priceForSandwich = 22.12;
 
-String teacherIntroduction = "Hej, jeg heddder "+teachername;
+String teacherIntroduction = "Hej, jeg heddder " + teacherName;
 
 boolean isMonday = false;
 
