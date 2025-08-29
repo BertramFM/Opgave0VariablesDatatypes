@@ -10,7 +10,9 @@ void setup(){
   priceForChicken = 55*3;
   pricePerCatFood = 50/3;
   message = "Husk at tage skraldespanden ud";
-  //4.c
+  
+  println("4.c");
+  
   println("Address: " + address);
   println("Total price for chicken: " + priceForChicken);
   println("Price for a single can of cat food: " + pricePerCatFood);
@@ -24,6 +26,7 @@ void setup(){
   priceForChicken = 40*6;
   pricePerCatFood = 124/5;
   message = "Kan du gå med hunden";
+  
   println("Address: " + address);
   println("Total price for chicken: " + priceForChicken);
   println("Price for a single can of cat food: " + pricePerCatFood);
@@ -33,13 +36,44 @@ void setup(){
   println();
   println("4.e");
  
-  address = "Standvejen 18 " + "Charlottenlund";
-  priceForChicken = 40*6 + 5;
-  pricePerCatFood = 124/5 + 12;
-  message = "Kan du gå med hunden" + "om aftenen";
+  address += " Charlottenlund";
+  priceForChicken += 5;
+  pricePerCatFood += 12;
+  message += " om aftenen?";
+  
   println("Address: " + address);
   println("Total price for chicken: " + priceForChicken);
   println("Price for a single can of cat food: " + pricePerCatFood);
   println("Text message: " + message);
+  
+  //
+  println();
+  println("4.f");
+  
+  priceForChicken = priceForChicken + 1;
+  pricePerCatFood = pricePerCatFood + 1;
+  
+  println("Total price for chicken: " + priceForChicken);
+  println("Price for a single can of cat food: " + pricePerCatFood);
+  
+  //
+  println();
+  println("4.g");
+  
+  priceForChicken = priceForChicken + 3;
+  pricePerCatFood = pricePerCatFood + 3;
+  
+  println("Total price for chicken: " + priceForChicken);
+  println("Price for a single can of cat food: " + pricePerCatFood);
+  
+  //
+  println();
+  println("4.h");
+  
+  priceForChicken = priceForChicken - 1;
+  pricePerCatFood = pricePerCatFood - 1;
+  
+  println("Total price for chicken: " + priceForChicken);
+  println("Price for a single can of cat food: " + pricePerCatFood);
   
 }
