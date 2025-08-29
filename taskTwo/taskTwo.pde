@@ -1,6 +1,5 @@
 "Tess Løvgreen";// Skriv den rette datatype og et passende variabelnavn foran denne værdi: String teacherName= "Tess Løvgreen"
 
-
 int daysInYear = 365;
 
 String capitalCity = "København";
