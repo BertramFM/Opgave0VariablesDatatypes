@@ -1,7 +1,7 @@
 String address;
 
-int priceForTrain = 22*5;
+int priceForChicken;
 
-float priceForCatFood = 140/3;
+float pricePerCatFood;
 
-String message = "Husk at opdatere koden"
+String message;
